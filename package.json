@@ -1,0 +1,17 @@
+{
+  "name": "mssqlbackup",
+  "homepage": "https://github.com/leoshiang/MSSQLBackup#readme",
+  "version": "1.0.0",
+  "description": "這是一個備份 SQL Server 資料庫的小工具，可以設定日備份、週備份和月備份。每種備份方式可以設定保留期間。支援 Windows/Linux/MacOS。",
+  "main": "MSSQLBackup.js",
+  "scripts": {
+    "build": "cd VerMgr && call release && cd ..\\"
+  },
+  "author": "Leo Shiang",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "mssql": "^11.0.0"
+  }
+}
